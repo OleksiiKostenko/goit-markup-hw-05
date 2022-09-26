@@ -54,7 +54,7 @@
       <section class="hero-section">
         <div class="hero-wrapp container">
           <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-          <button type="button" class="head-btn">Замовити послугу</button>
+          <button type="button" class="head-btn" data-modal-open>Замовити послугу</button>
         </div>
       </section>
       <!-- feature section -->
@@ -373,10 +373,10 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop">
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button type="button" class="close-btn">
-          <img class="imgx" src="./css/img/Vector.svg" alt="" />
+        <button type="button" class="close-btn" data-modal-close>
+          <svg class="close-icon"><use href="./css/img/icons.svg#icon-vector"></use></svg>
         </button>
       </div>
     </div>
